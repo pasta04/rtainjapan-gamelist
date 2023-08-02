@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+  <script>
+    (function (d) {
+      var config = {
+        kitId: '★WebプロジェクトのID★',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+</head>
+
+<body>
+  <div>
+    <select id="day" style="width:100px;margin:10px;padding:2px;" onchange="handleChangeDay(this.value);">
+    </select>
+
+    <select id="page" style="width:50px;margin:10px -5px 10px 0;padding:2px;" onchange="handleChangePage(this.value);">
+      <option value="0">1</option>
+      <option value="1">2</option>
+      <option value="2">3</option>
+    </select>
+    page
+  </div>
+  <!-- font読み込み -->
+  <span style="font-family: ab-kokoro-no3; display:none">日月火水木金土</span>
+  <canvas id="gamelist"></canvas>
+</body>
+<script src="./script.js"></script>
+
+</html>

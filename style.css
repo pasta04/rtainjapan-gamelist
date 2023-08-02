@@ -1,0 +1,17 @@
+html {
+  padding: 0;
+}
+
+body {
+  padding: 0;
+}
+
+body,
+select {
+  font-family: "MPLUS1p-Bold";
+}
+
+@font-face {
+  font-family: 'MPLUS1p-Bold';
+  src: url('./font/MPLUS1p-Bold.woff') format('woff');
+}
