@@ -127,6 +127,11 @@ const drawString = (ctx, font, textAlign, textBaseline, color, text, x, y) => {
   ctx.fillText(text, x, y);
 }
 
+/**
+ * 日付整形
+ * @param {string} str 日時の文字列
+ * @returns "8/10(木)" みたいな形式
+ */
 const toDateStr = (str) => {
   const d = new Date(str);
   const month = d.getMonth() + 1;
@@ -136,6 +141,39 @@ const toDateStr = (str) => {
   return `${month}/${day}(${date})`;
 }
 
+/**
+ * 
+ * @param {string} text テキスト
+ * @param {number} maxFontsize 最大のフォントサイズ 
+ * @param {number} minFontsize 最小のフォントサイズ 
+ * @param {number} maxWidth 最大幅
+ * @returns {number}
+ */
+const calcFontSize = (text, fontFamily, maxFontsize, minFontsize, maxWidth) => {
+  /** @type HTMLElement */
+  const dom = document.getElementById("calcFont");
+  while (dom.firstChild) {
+    dom.removeChild(dom.firstChild);
+  }
+  dom.innerHTML = text;
+  dom.style.width = "fit-content";
+  dom.style.fontFamily = fontFamily;
+  dom.style.fontSize = `${maxFontsize}px`;
+
+  let fontSize = maxFontsize;
+  let width = dom.clientWidth;
+  // console.log(`maxWidth=${maxWidth} width=${width} fontSize=${fontSize} ${text}`);
+  while (width > maxWidth && minFontsize < fontSize) {
+    fontSize--;
+    dom.style.fontSize = `${fontSize}px`;
+    width = dom.clientWidth;
+    // console.log(`maxWidth=${maxWidth} width=${width} fontSize=${fontSize}`);
+  }
+
+  return fontSize;
+}
+
+/** canvas描画 */
 const draw = async () => {
   /** @type {HTMLCanvasElement} */
   const canvas = document.getElementById("gamelist");
@@ -198,13 +236,17 @@ const draw = async () => {
 
     // ゲーム情報
     const title_y = y + 30;
-    let size = game.gameName.length * 30 < 1000 ? 30 : 20;
-    drawString(ctx, `${size}px MPLUS1p-Bold`, "center", "middle", TEXT_COLOR, game.gameName, center_x, title_y);
+    const fontFamily = "MPLUS1p-Bold";
+    let text = game.gameName;
+    let size = calcFontSize(text, fontFamily, 30, 10, 700);
+    drawString(ctx, `${size}px ${fontFamily}`, "center", "middle", TEXT_COLOR, text, center_x, title_y);
+
     // カテゴリ、走者
     const runners_y = y + 80 - 18;
     let len = category_runner.length;
-    size = len * 18 < 1000 ? 18 : 14;
-    drawString(ctx, `${size}px MPLUS1p-Bold`, "center", "middle", TEXT_COLOR, category_runner, center_x, runners_y);
+    text = category_runner;
+    size = calcFontSize(text, fontFamily, 18, 10, 700);
+    drawString(ctx, `${size}px ${fontFamily}`, "center", "middle", TEXT_COLOR, category_runner, center_x, runners_y);
   }
 }
 

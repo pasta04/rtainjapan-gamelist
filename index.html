@@ -2,7 +2,6 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
   <script>
     (function (d) {
       var config = {
@@ -22,14 +21,13 @@
 
     <select id="page" style="width:50px;margin:10px -5px 10px 0;padding:2px;" onchange="handleChangePage(this.value);">
       <option value="0">1</option>
-      <option value="1">2</option>
-      <option value="2">3</option>
     </select>
     page
   </div>
   <!-- font読み込み -->
   <span style="font-family: ab-kokoro-no3; display:none">日月火水木金土</span>
   <canvas id="gamelist"></canvas>
+  <div id="calcFont" style="visibility: hidden;"></div>
 </body>
 <script src="./script.js"></script>
 
