@@ -1,5 +1,7 @@
+/** Horaroのuser名 */
 const HORARO_USER = "rtaij";
-const LIST_PAGENATION_NUM = 11;
+/** 1ページに表示するゲーム数の上限 */
+let LIST_PAGENATION_NUM = 11;
 
 const loadImage = (src) => {
   return new Promise((resolve, reject) => {
@@ -18,6 +20,10 @@ const parseParam = () => {
     const [key, value] = q.split("=");
     if (key === "eventId") {
       eventId = value;
+    }
+
+    if (key === "max" && value.match(/\d+/)) {
+      LIST_PAGENATION_NUM = Number(value);
     }
   }
   if (!eventId) {
