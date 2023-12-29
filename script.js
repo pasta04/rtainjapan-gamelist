@@ -40,7 +40,7 @@ const parseParam = () => {
 const getHoraro = async (user, eventId) => {
 
   // データ取得
-  const url = `https://horaro.org/-/api/v1/events/${user}/schedules/${eventId}`;
+  const url = `https://rtain.jp/api/ajax/index.php?url=https://horaro.org/-/api/v1/events/${user}/schedules/${eventId}`;
   const res = await (await fetch(url)).json();
   // const res = await (await fetch("./test/horaro.json")).json();
 
@@ -288,6 +288,7 @@ const draw = async () => {
     ctx.fillRect(50, y, 700, 80);
     ctx.closePath();
 
+    console.log(`----------------------\n ${game.gameName}`);
     // ゲーム情報
     const title_y = y + 30;
     const fontFamily = "MPLUS1p-Bold";
@@ -299,7 +300,8 @@ const draw = async () => {
     const runners_y = y + 80 - 18;
     let len = category_runner.length;
     text = category_runner;
-    size = calcFontSize(text, fontFamily, 18, 10, 700);
+    size = calcFontSize(text, fontFamily, 18, 8, 695);
+    console.log(`category size=${size}`);
     drawString(ctx, `${size}px ${fontFamily}`, "center", "middle", TEXT_COLOR, category_runner, center_x, runners_y);
   }
 }
