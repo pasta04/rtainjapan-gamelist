@@ -2,6 +2,8 @@
 const HORARO_USER = "rtaij";
 /** 1ページに表示するゲーム数の上限 */
 let LIST_PAGENATION_NUM = 11;
+/** eventId未指定時のリダイレクト */
+const REDIRECT_QUERY = "?eventId=rtaijw2023";
 
 const loadImage = (src) => {
   return new Promise((resolve, reject) => {
@@ -28,7 +30,9 @@ const parseParam = () => {
   }
   if (!eventId) {
     alert("eventIdをクエリパラメータに指定してください");
-    throw new Error("query param Error");
+    // window.location.reload = `${window.location}`;
+    // throw new Error("query param Error");
+    window.location.search = REDIRECT_QUERY;
   }
   return eventId;
 }
@@ -36,9 +40,9 @@ const parseParam = () => {
 const getHoraro = async (user, eventId) => {
 
   // データ取得
-  const url = `https://rtain.jp/api/ajax/index.php?url=https://horaro.org/-/api/v1/events/${user}/schedules/${eventId}`;
+  const url = `https://horaro.org/-/api/v1/events/${user}/schedules/${eventId}`;
   const res = await (await fetch(url)).json();
-  // const res = await (await fetch("./test.json")).json();
+  // const res = await (await fetch("./test/horaro.json")).json();
 
   // 必要なデータを抽出
   const tmplist = res.data.items.map(item => {
@@ -48,15 +52,59 @@ const getHoraro = async (user, eventId) => {
     const scheduled = item.scheduled;
 
     return {
-      gameName,
-      category,
-      runners,
-      scheduled
+      gameName: gameName.replace("\\_", "_"),
+      category: category.replace("\\_", "_"),
+      runners: runners.replace("\\_", "_"),
+      scheduled,
     }
   });
 
   // 日毎に分類
   let list = [];
+  /** @type {number[]} 日のリスト。日付更新用トリガーとして記録 */
+  const dateList = [];
+  let index = -1;
+  for (const item of tmplist) {
+    const day = new Date(item.scheduled).getDate();
+    if (!dateList.includes(day)) {
+      dateList.push(day);
+      index++;
+      list.push([item]);
+    } else {
+      list[index].push(item);
+    }
+  }
+
+  return list;
+}
+
+/**
+ * Trackerからゲーム情報を取得
+ * @param {string} eventId 8とか 
+ */
+const getTracker = async (eventId) => {
+  const url = `https://tracker.rtain.jp/search/?type=run&event=${eventId}`;
+  // const res = await (await fetch(url)).json();
+  const res = await (await fetch("./test/tracker.json")).json();
+
+  // 必要なデータを抽出
+  const tmplist = res.map(item => {
+    const { name, category, deprecated_runners } = item.fields;
+
+    /** @example "2023-08-10T12:00:00+09:00" */
+    const starttime = item.fields.starttime;
+
+    return {
+      gameName: name,
+      category: category,
+      runners: deprecated_runners,
+      scheduled: starttime
+    }
+  });
+
+  /** @type {object[][]} ゲームリスト。日付ごとの２次元配列 */
+  let list = [];
+  /** @type {Day[]} 日のリスト。日付更新用トリガーとして記録 */
   const dateList = [];
   let index = -1;
   for (const item of tmplist) {
@@ -261,6 +309,7 @@ const init = async () => {
   const eventId = parseParam();
 
   gameList = await getHoraro(HORARO_USER, eventId);
+  // gameList = await getTracker(eventId);
   console.log(gameList);
   insertSelectDays();
   replaceSelectPage();

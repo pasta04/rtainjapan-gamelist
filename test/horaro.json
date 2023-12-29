@@ -1,0 +1,1373 @@
+{
+  "data": {
+    "id": "4311n223bm3fmi7a8f",
+    "name": "RTA in Japan Winter 2023",
+    "slug": "rtaijw2023",
+    "timezone": "Asia/Tokyo",
+    "start": "2023-12-26T12:00:00+09:00",
+    "start_t": 1703559600,
+    "website": "https://rtain.jp/",
+    "twitter": "rtainjapan",
+    "twitch": "rtainjapan",
+    "description": null,
+    "setup": "PT08M",
+    "setup_t": 480,
+    "updated": "2023-12-29T12:16:55Z",
+    "hidden_columns": [],
+    "link": "https://horaro.org/rtaij/rtaijw2023",
+    "columns": [
+      "ゲーム",
+      "カテゴリ",
+      "機種",
+      "種類",
+      "予定タイム",
+      "走者"
+    ],
+    "items": [
+      {
+        "length": "PT2H55M",
+        "length_t": 10500,
+        "scheduled": "2023-12-26T12:00:00+09:00",
+        "scheduled_t": 1703559600,
+        "data": [
+          "クラッシュ・バンディクー ブッとび3段もり！",
+          "Full Trilogy Any% Relay",
+          "PC",
+          "Relay run",
+          "02:55:00",
+          "セレナーデ☆ゆうき, amount, ばたけ。"
+        ]
+      },
+      {
+        "length": "PT1H14M",
+        "length_t": 4440,
+        "scheduled": "2023-12-26T15:03:00+09:00",
+        "scheduled_t": 1703570580,
+        "data": [
+          "俺は魚だよ",
+          "Any%",
+          "PC",
+          "Single run",
+          "01:30:00",
+          "レツ"
+        ]
+      },
+      {
+        "length": "PT32M",
+        "length_t": 1920,
+        "scheduled": "2023-12-26T16:25:00+09:00",
+        "scheduled_t": 1703575500,
+        "data": [
+          "ドーナツ・ドド",
+          "All Difficulties",
+          "PC",
+          "Single run",
+          "00:15:00",
+          "ゆきのすけ"
+        ]
+      },
+      {
+        "length": "PT1H21M",
+        "length_t": 4860,
+        "scheduled": "2023-12-26T17:05:00+09:00",
+        "scheduled_t": 1703577900,
+        "data": [
+          "Hollow Knight",
+          "True Ending (1.4+ NMG)",
+          "PC",
+          "Single run",
+          "01:30:00",
+          "さわよし"
+        ]
+      },
+      {
+        "length": "PT27M",
+        "length_t": 1620,
+        "scheduled": "2023-12-26T18:34:00+09:00",
+        "scheduled_t": 1703583240,
+        "data": [
+          "Have a Nice Death",
+          "Fresh File (Any Weapon)",
+          "PC",
+          "Single run",
+          "00:27:00",
+          "＠らんたん"
+        ]
+      },
+      {
+        "length": "PT20M",
+        "length_t": 1200,
+        "scheduled": "2023-12-26T19:09:00+09:00",
+        "scheduled_t": 1703585340,
+        "data": [
+          "メタルホーク",
+          "High score",
+          "Arcade",
+          "Single run",
+          "00:20:00",
+          "Zn-T"
+        ]
+      },
+      {
+        "length": "PT24M",
+        "length_t": 1440,
+        "scheduled": "2023-12-26T19:37:00+09:00",
+        "scheduled_t": 1703587020,
+        "data": [
+          "Touhou Luna Nights",
+          "Any%",
+          "PC",
+          "Single run",
+          "00:15:00",
+          "YKN"
+        ]
+      },
+      {
+        "length": "PT23M",
+        "length_t": 1380,
+        "scheduled": "2023-12-26T20:09:00+09:00",
+        "scheduled_t": 1703588940,
+        "data": [
+          "スーパーボンバーマン",
+          "Any%",
+          "SFC",
+          "Single run",
+          "00:15:00",
+          "やおよろず"
+        ]
+      },
+      {
+        "length": "PT20M",
+        "length_t": 1200,
+        "scheduled": "2023-12-26T20:40:00+09:00",
+        "scheduled_t": 1703590800,
+        "data": [
+          "ワルキューレの伝説",
+          "Arcade Any%",
+          "Arcade",
+          "Single run",
+          "00:20:00",
+          "gamsic"
+        ]
+      },
+      {
+        "length": "PT1H",
+        "length_t": 3600,
+        "scheduled": "2023-12-26T21:08:00+09:00",
+        "scheduled_t": 1703592480,
+        "data": [
+          "SIREN: New Translation",
+          "NORMAL 100%",
+          "PlayStation 3",
+          "Single run",
+          "01:10:00",
+          "ノーハ"
+        ]
+      },
+      {
+        "length": "PT1H32M",
+        "length_t": 5520,
+        "scheduled": "2023-12-26T22:16:00+09:00",
+        "scheduled_t": 1703596560,
+        "data": [
+          "Devil May Cry 3: Special Edition",
+          "NG Dante Normal",
+          "XboxSeriesS",
+          "Single run",
+          "01:25:00",
+          "せっちゃん"
+        ]
+      },
+      {
+        "length": "PT32M",
+        "length_t": 1920,
+        "scheduled": "2023-12-26T23:56:00+09:00",
+        "scheduled_t": 1703602560,
+        "data": [
+          "Ib",
+          "Any%",
+          "PC",
+          "Race",
+          "00:40:00",
+          "ソードフィッシュ, こまち, reich"
+        ]
+      },
+      {
+        "length": "PT4H04M",
+        "length_t": 14640,
+        "scheduled": "2023-12-27T00:36:00+09:00",
+        "scheduled_t": 1703604960,
+        "data": [
+          "DEATH STRANDING",
+          "Any% / Offline / Glitchless",
+          "PC",
+          "Single run",
+          "04:25:00",
+          "okometsubu"
+        ]
+      },
+      {
+        "length": "PT49M",
+        "length_t": 2940,
+        "scheduled": "2023-12-27T04:48:00+09:00",
+        "scheduled_t": 1703620080,
+        "data": [
+          "クロックタワーゴーストヘッド",
+          "Ending A",
+          "PlayStation",
+          "Single run",
+          "01:00:00",
+          "みこちゃま"
+        ]
+      },
+      {
+        "length": "PT08M",
+        "length_t": 480,
+        "scheduled": "2023-12-27T05:45:00+09:00",
+        "scheduled_t": 1703623500,
+        "data": [
+          "Human: Fall Flat",
+          "Any% Solo Pinch",
+          "PC",
+          "Single run",
+          "00:14:00",
+          "msgames79"
+        ]
+      },
+      {
+        "length": "PT45M",
+        "length_t": 2700,
+        "scheduled": "2023-12-27T06:01:00+09:00",
+        "scheduled_t": 1703624460,
+        "data": [
+          "Stilt Fella",
+          "Speedrun Mode",
+          "PC",
+          "Single run",
+          "00:30:00",
+          "からあげ"
+        ]
+      },
+      {
+        "length": "PT1H17M",
+        "length_t": 4620,
+        "scheduled": "2023-12-27T06:54:00+09:00",
+        "scheduled_t": 1703627640,
+        "data": [
+          "煉獄弐 The Stairway to H.E.A.V.E.N.",
+          "Any%",
+          "PlayStation Portable",
+          "Single run",
+          "01:20:00",
+          "ogamatin"
+        ]
+      },
+      {
+        "length": "PT59M",
+        "length_t": 3540,
+        "scheduled": "2023-12-27T08:19:00+09:00",
+        "scheduled_t": 1703632740,
+        "data": [
+          "スターフォックス64",
+          "Main Game Score Run (Single life)",
+          "N64",
+          "Single run",
+          "01:15:00",
+          "Miko"
+        ]
+      },
+      {
+        "length": "PT43M",
+        "length_t": 2580,
+        "scheduled": "2023-12-27T09:26:00+09:00",
+        "scheduled_t": 1703636760,
+        "data": [
+          "ドラえもん のび太と3つの精霊石",
+          "Any%",
+          "N64",
+          "Single run",
+          "00:43:00",
+          "ユタポン"
+        ]
+      },
+      {
+        "length": "PT59M",
+        "length_t": 3540,
+        "scheduled": "2023-12-27T10:17:00+09:00",
+        "scheduled_t": 1703639820,
+        "data": [
+          "ドラえもん3 のび太と時の宝玉",
+          "Any%",
+          "SFC",
+          "Race",
+          "01:05:00",
+          "はとまろ, とんかつ隊長"
+        ]
+      },
+      {
+        "length": "PT1H57M",
+        "length_t": 7020,
+        "scheduled": "2023-12-27T11:24:00+09:00",
+        "scheduled_t": 1703643840,
+        "data": [
+          "SaGa Frontier Remastered",
+          "2nd devision , New game , Japanese , Additional contents",
+          "PC",
+          "Single run",
+          "02:05:00",
+          "りコりス"
+        ]
+      },
+      {
+        "length": "PT41M",
+        "length_t": 2460,
+        "scheduled": "2023-12-27T13:29:00+09:00",
+        "scheduled_t": 1703651340,
+        "data": [
+          "Forward to the Sky",
+          "100%",
+          "PC",
+          "Single run",
+          "00:27:00",
+          "YohSay3"
+        ]
+      },
+      {
+        "length": "PT1H40M",
+        "length_t": 6000,
+        "scheduled": "2023-12-27T14:18:00+09:00",
+        "scheduled_t": 1703654280,
+        "data": [
+          "ファイナルファンタジー・クリスタルクロニクル",
+          "Any%",
+          "GC",
+          "Single run",
+          "01:40:00",
+          "らちゅ"
+        ]
+      },
+      {
+        "length": "PT19M",
+        "length_t": 1140,
+        "scheduled": "2023-12-27T16:06:00+09:00",
+        "scheduled_t": 1703660760,
+        "data": [
+          "ポケモンピンボール ルビー＆サファイア",
+          "Defeat Rayquaza (Sapphire Field)",
+          "GBA",
+          "Single run",
+          "00:25:00",
+          "前髪が長い"
+        ]
+      },
+      {
+        "length": "PT1H30M",
+        "length_t": 5400,
+        "scheduled": "2023-12-27T16:33:00+09:00",
+        "scheduled_t": 1703662380,
+        "data": [
+          "フェアルーン2",
+          "Any%",
+          "Switch",
+          "Single run",
+          "01:30:00",
+          "BST"
+        ]
+      },
+      {
+        "length": "PT2H08M",
+        "length_t": 7680,
+        "scheduled": "2023-12-27T18:11:00+09:00",
+        "scheduled_t": 1703668260,
+        "data": [
+          "スライムもりもりドラゴンクエスト2 大戦車としっぽ団",
+          "Any%",
+          "DS",
+          "Single run",
+          "02:20:00",
+          "茶メガネ"
+        ]
+      },
+      {
+        "length": "PT1H42M",
+        "length_t": 6120,
+        "scheduled": "2023-12-27T20:27:00+09:00",
+        "scheduled_t": 1703676420,
+        "data": [
+          "モンスターハンター3G",
+          "Ceadeus: Any%",
+          "3DS",
+          "Single run",
+          "02:15:00",
+          "もず"
+        ]
+      },
+      {
+        "length": "PT38M",
+        "length_t": 2280,
+        "scheduled": "2023-12-27T22:17:00+09:00",
+        "scheduled_t": 1703683020,
+        "data": [
+          "Light Infantry",
+          "Any%",
+          "PC",
+          "Single run",
+          "00:35:00",
+          "ことんび"
+        ]
+      },
+      {
+        "length": "PT21M",
+        "length_t": 1260,
+        "scheduled": "2023-12-27T23:03:00+09:00",
+        "scheduled_t": 1703685780,
+        "data": [
+          "ゼルダの伝説 ムジュラの仮面",
+          "Any% Unrestricted",
+          "N64",
+          "Single run",
+          "00:28:00",
+          "サンダーボルト"
+        ]
+      },
+      {
+        "length": "PT2H48M",
+        "length_t": 10080,
+        "scheduled": "2023-12-27T23:32:00+09:00",
+        "scheduled_t": 1703687520,
+        "data": [
+          "ゼルダ無双 厄災の黙示録",
+          "New Game+, Any% (Very Hard)",
+          "Switch",
+          "Single run",
+          "03:00:00",
+          "てむちー"
+        ]
+      },
+      {
+        "length": "PT3H43M",
+        "length_t": 13380,
+        "scheduled": "2023-12-28T02:28:00+09:00",
+        "scheduled_t": 1703698080,
+        "data": [
+          "ポケットモンスター ブリリアントダイヤモンド・シャイニングパール",
+          "Any% Glitchless",
+          "Switch",
+          "Single run",
+          "04:00:00",
+          "キャロ"
+        ]
+      },
+      {
+        "length": "PT1H23M",
+        "length_t": 4980,
+        "scheduled": "2023-12-28T06:19:00+09:00",
+        "scheduled_t": 1703711940,
+        "data": [
+          "ファイアーエムブレム 聖魔の光石",
+          "Bid War",
+          "GBA",
+          "Single run",
+          "01:25:00",
+          "ヤシ"
+        ]
+      },
+      {
+        "length": "PT40M",
+        "length_t": 2400,
+        "scheduled": "2023-12-28T07:50:00+09:00",
+        "scheduled_t": 1703717400,
+        "data": [
+          "星のカービィ スターアライズ ",
+          "Guest Star ???? Star Allies Go!",
+          "Switch",
+          "Single run",
+          "00:40:00",
+          "ヤナップ"
+        ]
+      },
+      {
+        "length": "PT1H20M",
+        "length_t": 4800,
+        "scheduled": "2023-12-28T08:38:00+09:00",
+        "scheduled_t": 1703720280,
+        "data": [
+          "星のカービィ 64",
+          "100%",
+          "N64",
+          "Race",
+          "01:20:00",
+          "シン, セリア"
+        ]
+      },
+      {
+        "length": "PT1H12M",
+        "length_t": 4320,
+        "scheduled": "2023-12-28T10:06:00+09:00",
+        "scheduled_t": 1703725560,
+        "data": [
+          "ピクミン",
+          "All Parts",
+          "GC",
+          "Single run",
+          "01:20:00",
+          "iid01"
+        ]
+      },
+      {
+        "length": "PT1H",
+        "length_t": 3600,
+        "scheduled": "2023-12-28T11:26:00+09:00",
+        "scheduled_t": 1703730360,
+        "data": [
+          "Carto",
+          "Any%",
+          "PC",
+          "Race",
+          "00:55:00",
+          "シカダ, reich"
+        ]
+      },
+      {
+        "length": "PT37M",
+        "length_t": 2220,
+        "scheduled": "2023-12-28T12:34:00+09:00",
+        "scheduled_t": 1703734440,
+        "data": [
+          "風ノ旅ビト",
+          "Any% (PC, Glitchless, White Robe)",
+          "PC",
+          "Single run",
+          "00:45:00",
+          "ねるねる＿"
+        ]
+      },
+      {
+        "length": "PT1H05M",
+        "length_t": 3900,
+        "scheduled": "2023-12-28T13:19:00+09:00",
+        "scheduled_t": 1703737140,
+        "data": [
+          "ソニックフォース",
+          "Any% No-Reantal",
+          "PC",
+          "Single run",
+          "1:10:00",
+          "あまべ"
+        ]
+      },
+      {
+        "length": "PT1H54M",
+        "length_t": 6840,
+        "scheduled": "2023-12-28T14:32:00+09:00",
+        "scheduled_t": 1703741520,
+        "data": [
+          "shapez",
+          "Any%",
+          "PC",
+          "Single run",
+          "02:15:00",
+          "ホウト@BBE"
+        ]
+      },
+      {
+        "length": "PT28M",
+        "length_t": 1680,
+        "scheduled": "2023-12-28T16:34:00+09:00",
+        "scheduled_t": 1703748840,
+        "data": [
+          "Unpacking",
+          "Any% Dark Star (Glitched)",
+          "PC",
+          "Single run",
+          "01:00:00",
+          "ユキカ"
+        ]
+      },
+      {
+        "length": "PT11M",
+        "length_t": 660,
+        "scheduled": "2023-12-28T17:10:00+09:00",
+        "scheduled_t": 1703751000,
+        "data": [
+          "海のぬし釣り 宝島に向かって",
+          "兄妹編 海賊の宝ルート",
+          "PlayStation",
+          "Single run",
+          "00:25:00",
+          "つりり"
+        ]
+      },
+      {
+        "length": "PT26M",
+        "length_t": 1560,
+        "scheduled": "2023-12-28T17:29:00+09:00",
+        "scheduled_t": 1703752140,
+        "data": [
+          "ミッキーとドナルド マジカルアドベンチャー3",
+          "Easy w / Donald",
+          "SFC",
+          "Single run",
+          "00:35:00",
+          "月代あさひ"
+        ]
+      },
+      {
+        "length": "PT1H26M",
+        "length_t": 5160,
+        "scheduled": "2023-12-28T18:03:00+09:00",
+        "scheduled_t": 1703754180,
+        "data": [
+          "ワリオランドシェイク",
+          "Any%",
+          "Wii",
+          "Single run",
+          "01:30:00",
+          "やさしま"
+        ]
+      },
+      {
+        "length": "PT1H13M",
+        "length_t": 4380,
+        "scheduled": "2023-12-28T19:37:00+09:00",
+        "scheduled_t": 1703759820,
+        "data": [
+          "Pizza Tower",
+          "Any% (No Major Glitches)",
+          "PC",
+          "Single run",
+          "01:15:00",
+          "SCRB"
+        ]
+      },
+      {
+        "length": "PT24M",
+        "length_t": 1440,
+        "scheduled": "2023-12-28T20:58:00+09:00",
+        "scheduled_t": 1703764680,
+        "data": [
+          "美少女戦士セーラームーン",
+          "工場出荷設定ヴィーナス1CC(基板)",
+          "Arcade",
+          "Single run",
+          "00:30:00",
+          "かわいいライオス"
+        ]
+      },
+      {
+        "length": "PT47M",
+        "length_t": 2820,
+        "scheduled": "2023-12-28T21:30:00+09:00",
+        "scheduled_t": 1703766600,
+        "data": [
+          "マリーのアトリエGB",
+          "Normal Ending",
+          "GBC",
+          "Single run",
+          "00:47:00",
+          "いるかん"
+        ]
+      },
+      {
+        "length": "PT5H50M",
+        "length_t": 21000,
+        "scheduled": "2023-12-28T22:25:00+09:00",
+        "scheduled_t": 1703769900,
+        "data": [
+          "ゼノギアス",
+          "Any%",
+          "PlayStation",
+          "Single run",
+          "05:50:00",
+          "嵯峨(サガ)"
+        ]
+      },
+      {
+        "length": "PT3H",
+        "length_t": 10800,
+        "scheduled": "2023-12-29T04:23:00+09:00",
+        "scheduled_t": 1703791380,
+        "data": [
+          "El Shaddai: Ascension of the Metatron HD Remastered",
+          "Glitchless Any% EXTRA",
+          "PC",
+          "Single run",
+          "03:00:00",
+          "nozomi\\_houtuki"
+        ]
+      },
+      {
+        "length": "PT2H35M",
+        "length_t": 9300,
+        "scheduled": "2023-12-29T07:31:00+09:00",
+        "scheduled_t": 1703802660,
+        "data": [
+          "ペーパーマリオRPG",
+          "Any%",
+          "GC",
+          "Single run",
+          "02:45:00",
+          "こっぺ"
+        ]
+      },
+      {
+        "length": "PT1H05M",
+        "length_t": 3900,
+        "scheduled": "2023-12-29T10:14:00+09:00",
+        "scheduled_t": 1703812440,
+        "data": [
+          "スーパーマリオ3Dランド",
+          "Any％",
+          "3DS",
+          "Single run",
+          "01:05:00",
+          "七瀬ゆうひ"
+        ]
+      },
+      {
+        "length": "PT27M",
+        "length_t": 1620,
+        "scheduled": "2023-12-29T11:27:00+09:00",
+        "scheduled_t": 1703816820,
+        "data": [
+          "スーパーマリオランド",
+          "Any%",
+          "GB",
+          "Race",
+          "00:15:00",
+          "EiP, シャーフ"
+        ]
+      },
+      {
+        "length": "PT45M",
+        "length_t": 2700,
+        "scheduled": "2023-12-29T12:02:00+09:00",
+        "scheduled_t": 1703818920,
+        "data": [
+          "スーパーマリオブラザーズ2",
+          "All Stages (FDS)",
+          "FDS",
+          "Single run",
+          "00:50:00",
+          "ロンドン橋"
+        ]
+      },
+      {
+        "length": "PT11M",
+        "length_t": 660,
+        "scheduled": "2023-12-29T12:55:00+09:00",
+        "scheduled_t": 1703822100,
+        "data": [
+          "元祖西遊記スーパーモンキー大冒険 ",
+          "Any%",
+          "FC",
+          "Race",
+          "00:05:00",
+          "ゆとりん, EiP"
+        ]
+      },
+      {
+        "length": "PT17M",
+        "length_t": 1020,
+        "scheduled": "2023-12-29T13:14:00+09:00",
+        "scheduled_t": 1703823240,
+        "data": [
+          "ビビッドナイト",
+          "Witch’s MazeⅨ- Zeola, Partial unlock",
+          "PC",
+          "Single run",
+          "00:45:00",
+          "shiro_rst"
+        ]
+      },
+      {
+        "length": "PT19M",
+        "length_t": 1140,
+        "scheduled": "2023-12-29T13:39:00+09:00",
+        "scheduled_t": 1703824740,
+        "data": [
+          "ウナきりアクション！ -きりたん砲の謎-",
+          "Any%",
+          "PC",
+          "Single run",
+          "00:27:00",
+          "のっつ"
+        ]
+      },
+      {
+        "length": "PT52M",
+        "length_t": 3120,
+        "scheduled": "2023-12-29T14:06:00+09:00",
+        "scheduled_t": 1703826360,
+        "data": [
+          "ドラゴンボールZIII 烈戦人造人間",
+          "Any%",
+          "FC",
+          "Single run",
+          "01:00:00",
+          "EVI"
+        ]
+      },
+      {
+        "length": "PT36M",
+        "length_t": 2160,
+        "scheduled": "2023-12-29T15:06:00+09:00",
+        "scheduled_t": 1703829960,
+        "data": [
+          "悪魔城ドラキュラ Circle of the moon",
+          "Vampire Killer All Bosses",
+          "GBA",
+          "Single run",
+          "00:36:00",
+          "偏差値60"
+        ]
+      },
+      {
+        "length": "PT24M",
+        "length_t": 1440,
+        "scheduled": "2023-12-29T15:50:00+09:00",
+        "scheduled_t": 1703832600,
+        "data": [
+          "Owlboy",
+          "Any%",
+          "PC",
+          "Single run",
+          "00:40:00",
+          "Keiichi"
+        ]
+      },
+      {
+        "length": "PT30M",
+        "length_t": 1800,
+        "scheduled": "2023-12-29T16:22:00+09:00",
+        "scheduled_t": 1703834520,
+        "data": [
+          "ウィザードリィⅣ ワードナの逆襲",
+          "Any%",
+          "PlayStation",
+          "Single run",
+          "00:30:00",
+          "誰"
+        ]
+      },
+      {
+        "length": "PT06M",
+        "length_t": 360,
+        "scheduled": "2023-12-29T17:00:00+09:00",
+        "scheduled_t": 1703836800,
+        "data": [
+          "メテオス",
+          "Straight Star Trip",
+          "DS",
+          "Single run",
+          "00:06:00",
+          "オクトパスカル"
+        ]
+      },
+      {
+        "length": "PT01M",
+        "length_t": 60,
+        "scheduled": "2023-12-29T17:14:00+09:00",
+        "scheduled_t": 1703837640,
+        "data": [
+          "メテオス",
+          "Multi Star Trip (Any Route)",
+          "DS",
+          "Single run",
+          "00:08:00",
+          "オクトパスカル"
+        ]
+      },
+      {
+        "length": "PT20M",
+        "length_t": 1200,
+        "scheduled": "2023-12-29T17:23:00+09:00",
+        "scheduled_t": 1703838180,
+        "data": [
+          "ばくばくアニマル 世界飼育係選手権",
+          "おじょうず (Expert)",
+          "Saturn",
+          "Single run",
+          "00:20:00",
+          "ざらき"
+        ]
+      },
+      {
+        "length": "PT1H",
+        "length_t": 3600,
+        "scheduled": "2023-12-29T17:51:00+09:00",
+        "scheduled_t": 1703839860,
+        "data": [
+          "バベルの塔",
+          "Normal (Original Version)",
+          "FC",
+          "Single run",
+          "01:00:00",
+          "LK"
+        ]
+      },
+      {
+        "length": "PT15M",
+        "length_t": 900,
+        "scheduled": "2023-12-29T18:59:00+09:00",
+        "scheduled_t": 1703843940,
+        "data": [
+          "パズルボブル エブリバブル!",
+          "パズルボブル vs インベーダー（4人協力プレイ）",
+          "Switch",
+          "Coop run",
+          "00:15:00",
+          "タッキー, 猫押(Nec-Os), らど竜, poshi"
+        ]
+      },
+      {
+        "length": "PT14M",
+        "length_t": 840,
+        "scheduled": "2023-12-29T19:22:00+09:00",
+        "scheduled_t": 1703845320,
+        "data": [
+          "BurgerTimeDeluxe",
+          "AllLevels",
+          "GB",
+          "Race",
+          "0:25:00",
+          "〆鯖, たろ"
+        ]
+      },
+      {
+        "length": "PT46M",
+        "length_t": 2760,
+        "scheduled": "2023-12-29T19:44:00+09:00",
+        "scheduled_t": 1703846640,
+        "data": [
+          "カービィボウル",
+          "Normal Courses - Any Medals",
+          "SFC",
+          "Single run",
+          "00:37:00",
+          "貯蓄"
+        ]
+      },
+      {
+        "length": "PT27M",
+        "length_t": 1620,
+        "scheduled": "2023-12-29T20:38:00+09:00",
+        "scheduled_t": 1703849880,
+        "data": [
+          "テトリスDX",
+          "40LINESトーナメント",
+          "GBC",
+          "Other",
+          "00:25:00",
+          "さいと, コーリャン, いちらんかりん, aKaFuKu, hebo\\_MAI, 月好き"
+        ]
+      },
+      {
+        "length": "PT1H45M",
+        "length_t": 6300,
+        "scheduled": "2023-12-29T21:13:00+09:00",
+        "scheduled_t": 1703851980,
+        "data": [
+          "風のクロノア2 アンコール ～世界が望んだ忘れ物～",
+          "Any%, Normal, Standard Mode",
+          "PC",
+          "Single run",
+          "01:45:00",
+          "ねこ"
+        ]
+      },
+      {
+        "length": "PT40M",
+        "length_t": 2400,
+        "scheduled": "2023-12-29T23:06:00+09:00",
+        "scheduled_t": 1703858760,
+        "data": [
+          "My Friendly Neighborhood",
+          "NewGame, No Major Glitches, Normal,",
+          "PC",
+          "Single run",
+          "00:40:00",
+          "キルクロ・S・モルガ"
+        ]
+      },
+      {
+        "length": "PT1H25M",
+        "length_t": 5100,
+        "scheduled": "2023-12-29T23:54:00+09:00",
+        "scheduled_t": 1703861640,
+        "data": [
+          "零～zero～",
+          "Low%",
+          "PlayStation 2",
+          "Single run",
+          "01:25:00",
+          "久世悠琳"
+        ]
+      },
+      {
+        "length": "PT5H25M",
+        "length_t": 19500,
+        "scheduled": "2023-12-30T01:27:00+09:00",
+        "scheduled_t": 1703867220,
+        "data": [
+          "ポポロクロイス物語",
+          "Any%",
+          "PlayStation",
+          "Single run",
+          "05:25:00",
+          "horrin"
+        ]
+      },
+      {
+        "length": "PT1H05M",
+        "length_t": 3900,
+        "scheduled": "2023-12-30T07:00:00+09:00",
+        "scheduled_t": 1703887200,
+        "data": [
+          "ロックマンゼクスアドベント",
+          "Any% Normal Ashe",
+          "PlayStation 4",
+          "Single run",
+          "01:05:00",
+          "ゼロマスターウロボロス"
+        ]
+      },
+      {
+        "length": "PT38M",
+        "length_t": 2280,
+        "scheduled": "2023-12-30T08:13:00+09:00",
+        "scheduled_t": 1703891580,
+        "data": [
+          "ガンヴォルト爪",
+          "アキュラ Any%",
+          "PC",
+          "Single run",
+          "00:38:00",
+          "階乗イサナ"
+        ]
+      },
+      {
+        "length": "PT1H",
+        "length_t": 3600,
+        "scheduled": "2023-12-30T08:59:00+09:00",
+        "scheduled_t": 1703894340,
+        "data": [
+          "ウエーブレース64",
+          "All Championships",
+          "N64",
+          "Single run",
+          "01:00:00",
+          "しゃろん"
+        ]
+      },
+      {
+        "length": "PT2H10M",
+        "length_t": 7800,
+        "scheduled": "2023-12-30T10:07:00+09:00",
+        "scheduled_t": 1703898420,
+        "data": [
+          "マリオカート8 デラックス",
+          "48 Tracks 150cc Items.",
+          "Switch",
+          "Single run",
+          "02:10:00",
+          "くさあん"
+        ]
+      },
+      {
+        "length": "PT40M",
+        "length_t": 2400,
+        "scheduled": "2023-12-30T12:25:00+09:00",
+        "scheduled_t": 1703906700,
+        "data": [
+          "激走トマランナー",
+          "大人のトマラン大会（ナカジマ） Any%（Adult Tournament  -Nakajima- Any% ）",
+          "PlayStation",
+          "Single run",
+          "00:40:00",
+          "じゃか"
+        ]
+      },
+      {
+        "length": "PT1H15M",
+        "length_t": 4500,
+        "scheduled": "2023-12-30T13:13:00+09:00",
+        "scheduled_t": 1703909580,
+        "data": [
+          "マリオテニス エース",
+          "Adventure Any%",
+          "Switch",
+          "Race",
+          "01:15:00",
+          "ポルック, Atsushi"
+        ]
+      },
+      {
+        "length": "PT23M",
+        "length_t": 1380,
+        "scheduled": "2023-12-30T14:36:00+09:00",
+        "scheduled_t": 1703914560,
+        "data": [
+          "SHINOBI NON GRATA",
+          "Any%",
+          "PC",
+          "Single run",
+          "00:23:00",
+          "Nore139"
+        ]
+      },
+      {
+        "length": "PT35M",
+        "length_t": 2100,
+        "scheduled": "2023-12-30T15:07:00+09:00",
+        "scheduled_t": 1703916420,
+        "data": [
+          "ICEY",
+          "NewGame All Bosses - EASY",
+          "PC",
+          "Single run",
+          "00:35:00",
+          "ことんび"
+        ]
+      },
+      {
+        "length": "PT1H35M",
+        "length_t": 5700,
+        "scheduled": "2023-12-30T15:50:00+09:00",
+        "scheduled_t": 1703919000,
+        "data": [
+          "CHUNITHM LUMINOUS",
+          "Rating (～AIR PLUS) 16.00",
+          "Arcade",
+          "Single run",
+          "01:35:00",
+          "わかりん"
+        ]
+      },
+      {
+        "length": "PT3H",
+        "length_t": 10800,
+        "scheduled": "2023-12-30T17:33:00+09:00",
+        "scheduled_t": 1703925180,
+        "data": [
+          "風来のシレン2 鬼襲来！シレン城！",
+          "最果てへの道99FRTA",
+          "N64",
+          "Race",
+          "03:00:00",
+          "よっつん, wkrn, 風石"
+        ]
+      },
+      {
+        "length": "PT55M",
+        "length_t": 3300,
+        "scheduled": "2023-12-30T20:41:00+09:00",
+        "scheduled_t": 1703936460,
+        "data": [
+          "HADES",
+          "Fresh File",
+          "PC",
+          "Single run",
+          "00:55:00",
+          "185"
+        ]
+      },
+      {
+        "length": "PT30M",
+        "length_t": 1800,
+        "scheduled": "2023-12-30T21:44:00+09:00",
+        "scheduled_t": 1703940240,
+        "data": [
+          "ソニックフロンティア",
+          "電脳空間チャレンジ  オールステージ",
+          "PC",
+          "Single run",
+          "00:30:00",
+          "ひざ丸"
+        ]
+      },
+      {
+        "length": "PT45M",
+        "length_t": 2700,
+        "scheduled": "2023-12-30T22:22:00+09:00",
+        "scheduled_t": 1703942520,
+        "data": [
+          "テイルスアドベンチャー",
+          "Any% Glitchless",
+          "GameGear",
+          "Single run",
+          "00:45:00",
+          "チェスト"
+        ]
+      },
+      {
+        "length": "PT1H",
+        "length_t": 3600,
+        "scheduled": "2023-12-30T23:15:00+09:00",
+        "scheduled_t": 1703945700,
+        "data": [
+          "LAPIN",
+          "Normal Any%",
+          "PC",
+          "Single run",
+          "01:00:00",
+          "鈴原ひの"
+        ]
+      },
+      {
+        "length": "PT2H50M",
+        "length_t": 10200,
+        "scheduled": "2023-12-31T00:23:00+09:00",
+        "scheduled_t": 1703949780,
+        "data": [
+          "BIOHAZARD 6",
+          "Leon - PC , Coop, No Hope, New Game",
+          "PC",
+          "Coop run",
+          "2:50:00",
+          "アルビ, いそがい"
+        ]
+      },
+      {
+        "length": "PT41M",
+        "length_t": 2460,
+        "scheduled": "2023-12-31T03:21:00+09:00",
+        "scheduled_t": 1703960460,
+        "data": [
+          "世界樹の迷宮II 諸王の聖杯 HD REMASTER",
+          "Any%",
+          "PC",
+          "Single run",
+          "00:41:00",
+          "As\\_Trolo\\_Gy"
+        ]
+      },
+      {
+        "length": "PT2H25M",
+        "length_t": 8700,
+        "scheduled": "2023-12-31T04:10:00+09:00",
+        "scheduled_t": 1703963400,
+        "data": [
+          "One Hand Clapping",
+          "Any%",
+          "PC",
+          "Single run",
+          "02:25:00",
+          "ひゅんすけ"
+        ]
+      },
+      {
+        "length": "PT30M",
+        "length_t": 1800,
+        "scheduled": "2023-12-31T06:43:00+09:00",
+        "scheduled_t": 1703972580,
+        "data": [
+          "Ultimate Doom",
+          "UV-Speed",
+          "PC",
+          "Single run",
+          "00:30:00",
+          "ZELLLOOO"
+        ]
+      },
+      {
+        "length": "PT25M",
+        "length_t": 1500,
+        "scheduled": "2023-12-31T07:21:00+09:00",
+        "scheduled_t": 1703974860,
+        "data": [
+          "ENTROPOLY",
+          "Any%",
+          "PC",
+          "Single run",
+          "00:25:00",
+          "Zer0"
+        ]
+      },
+      {
+        "length": "PT45M",
+        "length_t": 2700,
+        "scheduled": "2023-12-31T07:54:00+09:00",
+        "scheduled_t": 1703976840,
+        "data": [
+          "Golf It!",
+          "All 8 Maps, Classic",
+          "PC",
+          "Single run",
+          "00:45:00",
+          "すにふそら"
+        ]
+      },
+      {
+        "length": "PT1H15M",
+        "length_t": 4500,
+        "scheduled": "2023-12-31T08:47:00+09:00",
+        "scheduled_t": 1703980020,
+        "data": [
+          "バランワンダーワールド",
+          "Any% (Co-Op)",
+          "PC",
+          "Single run",
+          "01:15:00",
+          "ぺんた"
+        ]
+      },
+      {
+        "length": "PT1H50M",
+        "length_t": 6600,
+        "scheduled": "2023-12-31T10:10:00+09:00",
+        "scheduled_t": 1703985000,
+        "data": [
+          "メトロイド ドレッド",
+          "Any% Unrestricted (Multi-File) Rookie 目隠し",
+          "Switch",
+          "Single run",
+          "01:50:00",
+          "バネ"
+        ]
+      },
+      {
+        "length": "PT2H15M",
+        "length_t": 8100,
+        "scheduled": "2023-12-31T12:08:00+09:00",
+        "scheduled_t": 1703992080,
+        "data": [
+          "ポケットモンスター ハートゴールド・ソウルシルバー",
+          "金ネジキ撃破 Lv.50",
+          "DS",
+          "Single run",
+          "02:15:00",
+          "ばすたぁ"
+        ]
+      },
+      {
+        "length": "PT1H27M",
+        "length_t": 5220,
+        "scheduled": "2023-12-31T14:31:00+09:00",
+        "scheduled_t": 1704000660,
+        "data": [
+          "Sekiro: Shadows Die Twice",
+          "All Bosses / Minibosses Unrestricted",
+          "PC",
+          "Single run",
+          "01:27:00",
+          "Mizuki Aihara"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://horaro.org/-/api/v1/schedules/4311n223bm3fmi7a8f"
+      },
+      {
+        "rel": "event",
+        "uri": "https://horaro.org/-/api/v1/events/645002979s88wrb4d8"
+      },
+      {
+        "rel": "ticker",
+        "uri": "https://horaro.org/-/api/v1/schedules/4311n223bm3fmi7a8f/ticker"
+      }
+    ]
+  }
+}
