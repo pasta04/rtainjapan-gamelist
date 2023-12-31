@@ -50,11 +50,12 @@ const getHoraro = async (user, eventId) => {
 
     /** @example "2023-08-10T12:00:00+09:00" */
     const scheduled = item.scheduled;
+    console.log(runners);
 
     return {
-      gameName: gameName.replace("\\_", "_"),
-      category: category.replace("\\_", "_"),
-      runners: runners.replace("\\_", "_"),
+      gameName: gameName.replace(/\\/g, ""),
+      category: category.replace(/\\/g, ""),
+      runners: runners.replace(/\\/g, ""),
       scheduled,
     }
   });
