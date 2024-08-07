@@ -46,7 +46,20 @@ const getHoraro = async (user, eventId) => {
 
   // 必要なデータを抽出
   const tmplist = res.data.items.map(item => {
-    const [gameName, category, gameConsole, runType, est, runners] = item.data;
+
+    let gameName;
+    let category;
+    let gameConsole;
+    let runType;
+    let est;
+    let runners;
+    if (item.data.length === 6) {
+      // w2023以前
+      [gameName, category, gameConsole, runType, est, runners] = item.data;
+    } else {
+      // s2024
+      [gameName, category, runType, gameConsole, runners] = item.data;
+    }
 
     /** @example "2023-08-10T12:00:00+09:00" */
     const scheduled = item.scheduled;
