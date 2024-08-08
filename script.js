@@ -3,7 +3,7 @@ const HORARO_USER = "rtaij";
 /** 1ページに表示するゲーム数の上限 */
 let LIST_PAGENATION_NUM = 11;
 /** eventId未指定時のリダイレクト */
-const REDIRECT_QUERY = "?eventId=rtaijw2023";
+const REDIRECT_QUERY = "?eventId=rtaijs2024";
 
 const loadImage = (src) => {
   return new Promise((resolve, reject) => {
@@ -266,14 +266,16 @@ const draw = async () => {
   canvas.height = height;
   const ctx = canvas.getContext("2d");
 
+  const now = new Date().getTime();
+
   // canvasの背景
-  const backgroundImg = await loadImage("./img/gamelist_background.png");
+  const backgroundImg = await loadImage("./img/gamelist_background.png?" + now);
   const pattern = ctx.createPattern(backgroundImg, 'repeat');
   ctx.fillStyle = pattern;
   ctx.fillRect(0, 0, WIDTH, height);
 
   // ヘッダー
-  const hedaerImage = await loadImage("./img/gamelist_head.png");
+  const hedaerImage = await loadImage("./img/gamelist_head.png?" + now);
   ctx.drawImage(hedaerImage, 0, 0);
 
   // 日付表示
